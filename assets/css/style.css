@@ -3,13 +3,30 @@
     margin:0;
     padding:0;
 }
+/* General styles */
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    /* Generic project styles */
+    color:#000;
+}
+/* Header */
+
 header {
     background-color: grey;
 }
 
+/* Main content */
+
 main {
     background-color: lightgreen;
+    /* Make main content take all surplus space to push footer down */
+    
+    flex: 1 0 auto;
 }
+
+/* Footer */
 
 footer {
     background-color: gold;

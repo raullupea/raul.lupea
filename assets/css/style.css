@@ -1,0 +1,16 @@
+/* Asterix wildcard selector to override default styles added by the browser*/
+* {
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: grey;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: gold;
+}

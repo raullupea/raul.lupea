@@ -38,12 +38,13 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1, h2, h3 ,h4 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #620101;
 }
+
 
 #menu {
     font-size: 110%;
@@ -89,60 +90,92 @@ nav {
 /* Main content */
 
 main {
-    
+
     /* Make main content take all surplus space to push footer down */
 
     flex: 1 0 auto;
 }
+
 /* Hero section */
 #hero {
-    height:600px;
+    height: 600px;
     width: 100%;
     background: url('../images/hero.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background: rgba(240, 85, 11, .8);
+    width: 100%;
+    font-size: 110%;
+    position: absolute;
+    bottom: 30px;
+    width:80%;
+    min-height:200px;
+    padding-top:40px;
+    padding-left:20px;
+    box-shadow: 2px 2px 4px #000;
+}
+#cover-text >h2 ,#cover-text >h3,#cover-text >h4 {
+    color:#fff;
+}
+h4 > a {
+    text-decoration:none;
+    color:#000;
+}
+h4 >a:hover {
+    color:#fff;
 }
 
 /* Footer */
 
 #social-networks {
-        text-align:center;
-        padding: 20px 0;
-        display: flex;
-        justify-content:space-evenly;
-        list-style-type: none;
-    }
-    #social-networks i {
-        font-size: 160%;
-        padding:5%;
-        color:#000;
-    }
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #000;
+}
 
 
 /* Media queries */
 @media screen and (min-width: 768px) {
-     /*Header */
-     nav {
-        display:block;
-        position:relative;
+
+    /*Header */
+    nav {
+        display: block;
+        position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right:1rem;
-     }
-     #menu {
-        display:flex;
-     }
-     #menu >li {
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
         padding-left: 1rem;
-     }
-     .nav-toggle-label{
-        display:none;
-     }
-     #logo{
-        font-size:280%;
-        line-height:75%;
-        margin:1rem 0.5rem;
-        text-align:center;
-     }
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75%;
+        margin: 1rem 0.5rem;
+        text-align: center;
+    }
 }
+
 /* Larger devices (laptops and desktops , 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {

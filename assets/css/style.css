@@ -19,6 +19,9 @@ body {
 header {
     background-color: grey;
 }
+h1 {
+    font-family: 'Oswald',sans-serif;
+}
 
 /* Main content */
 

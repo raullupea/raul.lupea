@@ -26,6 +26,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #000;
+    position: relative;
 }
 
 header a {
@@ -53,6 +54,18 @@ h1 {
 
 .active {
     border-bottom: 1px solid #000;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000;
+    display: none;
+
 }
 
 /* Main content */

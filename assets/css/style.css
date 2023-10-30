@@ -100,3 +100,30 @@ main {
 footer {
     background-color: gold;
 }
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+     /*Header */
+     nav {
+        display:block;
+        position:relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right:1rem;
+     }
+     #menu {
+        display:flex;
+     }
+     #menu >li {
+        padding-left: 1rem;
+     }
+     .nav-toggle-label{
+        display:none;
+     }
+     #logo{
+        font-size:280%;
+        line-height:75%;
+        margin:1rem 0.5rem;
+        text-align:center;
+     }
+}

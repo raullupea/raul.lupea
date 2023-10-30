@@ -97,9 +97,19 @@ main {
 
 /* Footer */
 
-footer {
-    background-color: gold;
-}
+#social-networks {
+        text-align:center;
+        padding: 20px 0;
+        display: flex;
+        justify-content:space-evenly;
+        list-style-type: none;
+    }
+    #social-networks i {
+        font-size: 160%;
+        padding:5%;
+        color:#000;
+    }
+
 
 /* Media queries */
 @media screen and (min-width: 768px) {

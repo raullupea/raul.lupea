@@ -38,7 +38,10 @@ header a {
     color: inherit;
 }
 
-h1, h2, h3 ,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -110,21 +113,53 @@ main {
     font-size: 110%;
     position: absolute;
     bottom: 30px;
-    width:80%;
-    min-height:200px;
-    padding-top:40px;
-    padding-left:20px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
     box-shadow: 2px 2px 4px #000;
 }
-#cover-text >h2 ,#cover-text >h3,#cover-text >h4 {
-    color:#fff;
+
+#cover-text>h2,
+#cover-text>h3,
+#cover-text>h4 {
+    color: #fff;
 }
-h4 > a {
-    text-decoration:none;
-    color:#000;
+
+h4>a {
+    text-decoration: none;
+    color: #000;
 }
-h4 >a:hover {
-    color:#fff;
+
+h4>a:hover {
+    color: #fff;
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons>h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#football-rewards div,
+#football-values div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #000;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -174,13 +209,14 @@ h4 >a:hover {
         margin: 1rem 0.5rem;
         text-align: center;
     }
+
     /* Hero */
     #cover-text {
-        width:320px;
-        min-height:250px;
-        right:50px;
-        font-size:130%;
-        
+        width: 320px;
+        min-height: 250px;
+        right: 50px;
+        font-size: 130%;
+
     }
 }
 

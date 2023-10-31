@@ -174,6 +174,14 @@ h4 >a:hover {
         margin: 1rem 0.5rem;
         text-align: center;
     }
+    /* Hero */
+    #cover-text {
+        width:320px;
+        min-height:250px;
+        right:50px;
+        font-size:130%;
+        
+    }
 }
 
 /* Larger devices (laptops and desktops , 992px and up) */

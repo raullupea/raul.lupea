@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #000;
+    background-color: #d9c386;
     font-family: 'Lato', sans-serif;
 }
 
@@ -160,7 +161,15 @@ h4>a:hover {
 
 #benefits hr {
     border-top: 1px solid #000;
+
     margin: 5px 0;
+}
+
+#benefits a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 #circle-cover-bg {
@@ -321,4 +330,15 @@ h4>a:hover {
     #football-rewards>div {
         align-self: flex-end;
     }
+}
+
+/* About page */
+#about-us h1,
+#about-us h3 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2remx;
+    margin: 30px auto;
 }

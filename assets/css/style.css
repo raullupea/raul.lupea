@@ -155,7 +155,7 @@ h4>a:hover {
 }
 
 #benefits p {
-    padding 0 20px;
+    padding: 0 20px;
 }
 
 #benefits hr {
@@ -167,7 +167,7 @@ h4>a:hover {
     background: url('../images/celebration.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin: 40px 0;
+    margin-bottom: 20px;
     /* Make the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
@@ -237,12 +237,58 @@ h4>a:hover {
 
     }
 
+    /* Reasons section */
+    #football-rewards,
+    #football-values {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    #football-rewards>div,
+    #football-values>div {
+        width: 70%;
+    }
+
+    #football-values>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
-/* Larger devices (   laptops and    desktops , 992px and up) */
+/* Larger devices (laptops and desktops , 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #000;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Reason Section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #football-values {
+        order: 1;
+    }
+
+    #football-values>div {
+        align-self: flex-start;
+    }
+
+    #football-rewards>div {
+        align-self: flex-end;
     }
 }

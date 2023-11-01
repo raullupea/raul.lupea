@@ -180,6 +180,36 @@ h4>a:hover {
     justify-content: center;
 }
 
+/* Opening Times section */
+#times {
+    background: #512E5F;
+
+    /* No need for media query just used flex-box proprety */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#meetups>h2 {
+    padding-left: 20px;
+}
+
+#times h3 {
+    /* Override the heading colour set in general  styles*/
+    color: #fff;
+}
+
+#times div {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid(table) much readable over the background colour */
+    border: 2px solid #fff;
+}
+
 /* Footer */
 
 #social-networks {

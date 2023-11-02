@@ -235,6 +235,13 @@ h4>a:hover {
     color: #000;
 }
 
+/* Media query : large or landscape phones ( 576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media queries */
 @media screen and (min-width: 768px) {
@@ -302,12 +309,22 @@ h4>a:hover {
         align-items: center;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+
+    }
+
 }
 
 /* Larger devices (laptops and desktops , 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #000;
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
 
@@ -427,5 +444,5 @@ h4>a:hover {
 }
 
 #photos {
-    line-height: 2rem;
+    line-height: 0;
 }

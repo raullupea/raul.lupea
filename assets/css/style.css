@@ -293,6 +293,15 @@ h4>a:hover {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* About page/ About us section */
+    #my-story {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 /* Larger devices (laptops and desktops , 992px and up) */
@@ -354,12 +363,12 @@ h4>a:hover {
     font-size: 1.rem;
     flex-wrap: wrap;
     color: #000;
-
 }
 
 #my-story {
-    max-width: 350px;
-    background: url('../images/children.jpg')no-repeat center center/cover;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 50%;
     padding: 0 20px;
-
+    margin: auto;
 }

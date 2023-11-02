@@ -342,7 +342,7 @@ h4>a:hover {
 }
 
 /* About page */
-/* override styles from html general styles */
+
 #about-us {
     display: flex;
     flex-direction: column;
@@ -366,7 +366,66 @@ h4>a:hover {
 
 #my-story div {
     border: 2px solid #000;
+    box-shadow: 2px 2px 2px #000;
     margin: 1rem auto;
     text-align: center;
     padding: 1.5rem;
+}
+
+/* Rules section */
+#fair-play {
+    display: flex;
+    flex-direction: column;
+}
+
+#rewards {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#rewards p {
+    margin-top: 1rem;
+}
+
+/* best player and best scorer */
+#best-from {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#best-from p {
+    margin-top: 1rem;
+}
+
+/*Rules */
+#football-rules {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#football-rules p {
+    margin-top: 1rem;
+}
+
+/*Team */
+#team-spirit {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#team-spirit p {
+    margin-top: 1rem;
+}
+
+/* Gallery */
+#photos img {
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    line-height: 1 em;
+}
+
+#photos {
+    line-height: 2rem;
 }

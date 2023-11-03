@@ -242,6 +242,11 @@ h4>a:hover {
         column-count: 2;
         column-gap: 0;
     }
+    /*contact page */
+        #signup-form {
+         max-width:400px;
+         margin: 0 auto;
+         }
 }
 
 /* Media queries */
@@ -310,13 +315,24 @@ h4>a:hover {
         align-items: center;
     }
 
-
+    /* Contact Page */
+    #signup-form {
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
 
 /* Larger devices (laptops and desktops , 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #000;
+    }
+
+    /*Contact page */
+    #signup-form {
+        max-width: 400px;
+
+        margin: 0 auto;
     }
 
 
@@ -432,11 +448,11 @@ h4>a:hover {
 
 
 #photos img {
-    background-image: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    line-height: 1 em;
+
 
 
 }
@@ -456,7 +472,7 @@ h4>a:hover {
 
 #signup-form {
     color: #fafafa;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     padding: 30px;
 }
 

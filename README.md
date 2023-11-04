@@ -1,43 +1,55 @@
-<h1 align="center">ManOn</h1>
+      <h1 align="center">ManOn</h1>
 
 [View the live project here.](https://raullupea.github.io/raul.lupea/)
 
-This is the main marketing website for ManOn. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers who love playing the king sport which is Football. 
+This is the main marketing website for ManOn. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers who love playing the king sport which is Football.
 
-<h2 align="center"><img src="assets/images/fullscreen.png"></h2>
-<h2 align="center"><img src="assets/images/android.png"></h2>
-<h2 align="center"><img src="assets/images/iphone.png"></h2>
-<h2 align="center"><img src="assets/images/tablet.png"></h2>
-<h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
+      <h2 align="center"><img src="assets/images/fullscreen.png"></h2>
+      <h2 align="center"><img src="assets/images/android.png"></h2>
+       <h2 align="center"><img src="assets/images/iphone.png"></h2>
+      <h2 align="center"><img src="assets/images/tablet.png"></h2>
+      <h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
 
 ## User Experience (UX)
+      <h2 align="center"><img src="assets/images/phoneview-min.png"></h2>
+      <h2 align="center"><img src="assets/images/details-min.png"></h2>
+      <h2 align="center"><img src="assets/images/opening .png"></h2>
+       <h2 align="center"><img src="assets/images/gallery-min.png"></h2>
+       <h2 align="center"><img src="assets/images/signin-min.png"></h2>
+
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+- #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-  - #### Returning Visitor Goals
+- #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about coding challenges.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
 
-  - #### Frequent User Goals
+- #### Frequent User Goals
 
         1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
         2. As a Frequent User, I want to check to see if there are any new blog posts.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 - ### Design
-  - #### Colour Scheme
+
+- #### Colour Scheme
+
     - The two main colours used are  a form of light shade of yellow #d9c386, and a dark shade of red #620101.
-  - #### Typography
+
+- #### Typography
+
     - The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lato gives clarity ,simplicity and its legibility in any screen.Thanks to its geometric forms, it is remarkably stable and balances out any elaborate serif.
-  - #### Imagery
+
+- #### Imagery
+
     - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic ,and also describes the Website name .
 
 - ### Wireframes
@@ -63,22 +75,21 @@ This is the main marketing website for ManOn. It is designed to be responsibe an
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Google fonts ] (http://google-fonts.com)
+     1. [Google fonts ] (<http://google-fonts.com>)
     - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
-2. [Font Awesome:](https://fontawesome.com/)
+     2. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-3. [Git](https://git-scm.com/)
+     3. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-4. [GitHub:](https://github.com/)
+    4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/#textarea) ,(<https://github.com/raullupea/raul.lupea/blob/main/about.html>) , (https://github.com/raullupea/raul.lupea/blob/main/contact.html)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/raullupea/raul.lupea/blob/main/assets/css/style.css) ,(<https://jigsaw.w3.org/css-validator/validator>)
+      - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/#textarea) ,(<https://github.com/raullupea/raul.lupea/blob/main/about.html>) , (<https://github.com/raullupea/raul.lupea/blob/main/contact.html>)
+      - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/raullupea/raul.lupea/blob/main/assets/css/style.css) ,(<https://jigsaw.w3.org/css-validator/validator>)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -93,13 +104,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        
+
         2. On the Contact  Page, user finds a form  where response is submitted, and a succesfull application message is shown.
 
-   
         3. Once the new visitor has read the About Page  and Our Story, they will notice the Rewards section ,Top scores and best player section,Rules section ,Team section and last the Gallery were user can see a few photos about our location and facilities.
         4. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-       
 
 - #### Returning Visitor Goals
 
@@ -110,7 +119,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
+        1. The navigation bar clearly highlights the "Contact" Page.
         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
@@ -118,8 +127,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        
-       
 
 - #### Frequent User Goals
 
@@ -127,7 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user would already be comfortable with the website layout and can easily click the banner message.
         2. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        
+
         3. There is a "Book Game " button underneath the input field which is located close to the field and can easily be distinguished.This "Book Game " button once clicked will book you a game in the 18 teams tournament.
         4. The "Reserve " button is for the users who are not part of the tournament but want to enjoy a game of 6aside with friends.
 

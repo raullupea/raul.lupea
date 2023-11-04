@@ -11,13 +11,7 @@ This is the main marketing website for ManOn. It is designed to be responsibe an
       <h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
 
 ## User Experience (UX)
-      <h2 align="center"><img src="assets/images/phoneview-min.png"></h2>
-      <h2 align="center"><img src="assets/images/details-min.png"></h2>
-      <h2 align="center"><img src="assets/images/opening .png"></h2>
-       <h2 align="center"><img src="assets/images/gallery-min.png"></h2>
-       <h2 align="center"><img src="assets/images/signin-min.png"></h2>
-
-
+      
 - ### User stories
 
 - #### First Time Visitor Goals

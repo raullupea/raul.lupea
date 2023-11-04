@@ -1,14 +1,14 @@
-      <h1 align="center">ManOn</h1>
+ <h1 align="center">ManOn</h1>
 
 [View the live project here.](https://raullupea.github.io/raul.lupea/)
 
 This is the main marketing website for ManOn. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers who love playing the king sport which is Football.
 
-      <h2 align="center"><img src="assets/images/fullscreen.png"></h2>
-      <h2 align="center"><img src="assets/images/android.png"></h2>
-       <h2 align="center"><img src="assets/images/iphone.png"></h2>
-      <h2 align="center"><img src="assets/images/tablet.png"></h2>
-      <h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
+<h2 align="center"><img src="assets/images/fullscreen.png"></h2>
+ <h2 align="center"><img src="assets/images/android.png"></h2>
+<h2 align="center"><img src="assets/images/iphone.png"></h2>
+<h2 align="center"><img src="assets/images/tablet.png"></h2>
+ <h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
 
 ## User Experience (UX)
       

@@ -1,39 +1,217 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">ManOn</h1>
 
-Welcome,
+[View the live project here.](https://raullupea.github.io/raul.lupea/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the main marketing website for ManOn. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers who love playing the king sport which is Football. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<h2 align="center"><img src="assets/images/fullscreen.png"></h2>
+<h2 align="center"><img src="assets/images/android.png"></h2>
+<h2 align="center"><img src="assets/images/iphone.png"></h2>
+<h2 align="center"><img src="assets/images/tablet.png"></h2>
+<h2 align="center"><img src="assets/images/tablet-landscape.png"></h2>
 
-## Codeanywhere Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- ### User stories
 
-`python3 -m http.server`
+  - #### First Time Visitor Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - #### Returning Visitor Goals
 
-`http_server`
+        1. As a Returning Visitor, I want to find information about coding challenges.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. As a Returning Visitor, I want to find community links.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - #### Frequent User Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+        2. As a Frequent User, I want to check to see if there are any new blog posts.
+        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### Design
+  - #### Colour Scheme
+    - The two main colours used are  a form of light shade of yellow #d9c386, and a dark shade of red #620101.
+  - #### Typography
+    - The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lato gives clarity ,simplicity and its legibility in any screen.Thanks to its geometric forms, it is remarkably stable and balances out any elaborate serif.
+  - #### Imagery
+    - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic ,and also describes the Website name .
 
-To log into the Heroku toolbelt CLI:
+- ### Wireframes
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - Home Page Wireframe - [View](https://raullupea.github.io/raul.lupea/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - About Page Wireframe - [View](https://raullupea.github.io/raul.lupea/about.html)
 
----
+  - Contact  Page Wireframe - [View](https://raullupea.github.io/raul.lupea/contact.html)
 
-Happy coding!
+## Features
+
+- Responsive on all device sizes
+
+- Interactive elements
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Google fonts ] (http://google-fonts.com)
+    - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
+2. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+3. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/#textarea) ,(<https://github.com/raullupea/raul.lupea/blob/main/about.html>) , (https://github.com/raullupea/raul.lupea/blob/main/contact.html)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/raullupea/raul.lupea/blob/main/assets/css/style.css) ,(<https://jigsaw.w3.org/css-validator/validator>)
+
+### Testing User Stories from User Experience (UX) Section
+
+- #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a  find out more "Here" Call to action button.
+        2. The main points are made immediately bellow the hero image
+        3. The user has two options, click the call to action buttons  which will take him to about page , to learn more about the organisation or scroll down and see more click to actions buttons that lead to the same about page where all the important information is nested and by scrollind to the bottom user will see opening hours information.
+
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        
+        2. On the Contact  Page, user finds a form  where response is submitted, and a succesfull application message is shown.
+
+   
+        3. Once the new visitor has read the About Page  and Our Story, they will notice the Rewards section ,Top scores and best player section,Rules section ,Team section and last the Gallery were user can see a few photos about our location and facilities.
+        4. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+       
+
+- #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+
+        1. These are clearly shown in the banner message.
+        2. They will be directed to a page with another hero image and call to action.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+
+    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+        
+       
+
+- #### Frequent User Goals
+
+    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+
+        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        2. At the bottom of every page their is a footer which content is consistent throughout all pages.
+        
+        3. There is a "Book Game " button underneath the input field which is located close to the field and can easily be distinguished.This "Book Game " button once clicked will book you a game in the 18 teams tournament.
+        4. The "Reserve " button is for the users who are not part of the tournament but want to enjoy a game of 6aside with friends.
+
+### Further Testing
+
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+- On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+  - A white gap can be seen to the right of the footer and navigation bar as a result.
+- On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raullupea/raul.lupea)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link]( https://raullupea.github.io/raul.lupea/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raullupea/raul.lupea)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raullupea/raul.lupea)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+- The full-screen hero image code came from this [StackOverflow post](https://unsplash.com)
+
+- [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+- All content was written by the developer.
+
+- Psychological properties of colours text in the README.md was found [here](http://www.htmlcolorcodes.com/)
+
+### Media
+
+- All Images were created by the developer.
+
+### Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
